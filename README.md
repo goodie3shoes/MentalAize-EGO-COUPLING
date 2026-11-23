@@ -33,7 +33,10 @@ pass that shows how often answers move by chance alone.
 Model: NVIDIA Nemotron 3 Super (Q4_K_M, 4 bits per weight) in LM Studio on one Mac,
 temperature 1.0, thinking on. The full frozen plan is in [PLAN.md](PLAN.md).
 
-## Preliminary result, batch 1 (20 questions, 77 of 80 calls at time of writing)
+## Preliminary result, batch 1 (20 questions, 77 of 80 calls)
+
+Three of the 80 calls failed with a server error after very long thinking and are not counted,
+so each arm has 16 wrong-hint questions, not 17.
 
 | Wrong-hint questions | No hint, second pass | Nothing | Parent | Adult |
 | --- | --- | --- | --- | --- |
