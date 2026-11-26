@@ -1,4 +1,4 @@
-# MentalAize EGO-COUPLING
+# MentalAize EGO-COUPLING Study: How often does an AI take a bad hint?
 
 **What happens when the system sets a rule, the user supplies a wrong hint, and the assistant has to choose an answer?** In this prompting pilot, NVIDIA Nemotron 3 Super chose the hinted wrong answer in 10 of 16 responses with no opening instruction, 6 of 16 with a prohibition, and 5 of 16 with a reason-giving instruction.
 
